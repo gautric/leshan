@@ -1,9 +1,8 @@
 [Build Status](https://hudson.eclipse.org/leshan/)
 
-Leshan
-======
+![Leshan](https://eclipse.org/leshan/img/multicolor-leshan.png)
 
-Leshan is a OMA Lightweight M2M server and client java implementation.
+[Leshan](https://eclipse.org/leshan) is a OMA Lightweight M2M server and client java implementation.
 
 [What is OMA LWM2M ?](http://technical.openmobilealliance.org/Technical/release_program/lightweightM2M_v1_0.aspx)  
 [The specification](http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/).  
@@ -67,7 +66,7 @@ java -jar target/leshan-client-example-*-SNAPSHOT-jar-with-dependencies.jar loca
 
 The list of the registered clients: http://localhost:8080/api/clients
 
-![Leshan](https://raw.github.com/msangoi/leshan/master/leshan-capture.png)
+![Leshan](https://eclipse.org/leshan/img/capture_for_github.png)
 
 Code with eclipse
 -----------------
@@ -93,7 +92,7 @@ Modules
 `Leshan-server-cf` : server implementation based on [californium](https://github.com/eclipse/californium).  
 `Leshan-client-core` : client lwm2m logic.  
 `Leshan-client-cf` : client implementation based on [californium](https://github.com/eclipse/californium).  
-`Leshan-all` : everything in 1 jar.  
+`Leshan-all` : every previous modules in 1 jar.  
 `Leshan-client-example` : a sample of client API.  
 `Leshan-standalone` : a demo server with a web UI.  
 `Leshan-bs-server` : a bootstarp demo server.  
